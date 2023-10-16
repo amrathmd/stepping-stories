@@ -1,0 +1,25 @@
+.mainNav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .mainNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 4rem;
+    background-color: #e5e5e5;
+    border-bottom: #f1b2c0 solid 2px;
+  }
+  .mainNav > ul > li {
+    cursor: pointer;
+    padding : 10px;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+  }
+  .mainNav > ul > li :hover{
+    background-color:#f1b2c0;
+  }
+  
